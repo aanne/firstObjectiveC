@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CB31432820F30BC70041D567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31432720F30BC70041D567 /* main.m */; };
+		CB31432F20F3260B0041D567 /* ShapeProcedural.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31432E20F3260B0041D567 /* ShapeProcedural.m */; };
+		CB31433120F32EA00041D567 /* Shape-Object.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31433020F32EA00041D567 /* Shape-Object.m */; };
+		CB31433520F348570041D567 /* Shape-Inheritance.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31433420F348570041D567 /* Shape-Inheritance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CB31432420F30BC70041D567 /* firstObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = firstObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB31432720F30BC70041D567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB31432E20F3260B0041D567 /* ShapeProcedural.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeProcedural.m; sourceTree = "<group>"; };
+		CB31433020F32EA00041D567 /* Shape-Object.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Shape-Object.m"; sourceTree = "<group>"; };
+		CB31433420F348570041D567 /* Shape-Inheritance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Shape-Inheritance.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CB31432720F30BC70041D567 /* main.m */,
+				CB31432E20F3260B0041D567 /* ShapeProcedural.m */,
+				CB31433020F32EA00041D567 /* Shape-Object.m */,
+				CB31433420F348570041D567 /* Shape-Inheritance.m */,
 			);
 			path = firstObjectiveC;
 			sourceTree = "<group>";
@@ -118,6 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB31433120F32EA00041D567 /* Shape-Object.m in Sources */,
+				CB31432F20F3260B0041D567 /* ShapeProcedural.m in Sources */,
+				CB31433520F348570041D567 /* Shape-Inheritance.m in Sources */,
 				CB31432820F30BC70041D567 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

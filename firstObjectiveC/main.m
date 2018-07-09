@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 BOOL areIntsDifferent(int a,int b){
     if(a==b){
         return (NO);
@@ -24,7 +25,7 @@ NSString *boolString(BOOL b){
     }
 }
 
-int main(int argc, const char * argv[]) {
+/*int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
@@ -32,5 +33,5 @@ int main(int argc, const char * argv[]) {
         NSLog(@"are %d and %d different? %@",4,5,boolString(areTheyDifferent));
     }
     return 0;
-}
+}*/
 
